@@ -14,8 +14,7 @@ namespace BurcBulucu
             int gun = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(" Hangi ay dogdugunuzu yazınız ");
             int ay = Convert.ToInt32(Console.ReadLine());
-            do
-            {
+            
                 if (gun >= 1 && gun <= 20 && ay == 1)
                 {
                     Console.WriteLine(" Oğlak");
@@ -112,7 +111,7 @@ namespace BurcBulucu
                 {
                     Console.WriteLine(" Oğlak");
                 }
-            } while (false);
+            
             Console.ReadLine();
         }
     }
